@@ -1,5 +1,5 @@
+/*Develop a program to design a function for a Binary Search using Divide & Conquer strategies. Also compute its time complexity*/
 #include <iostream>
-
 using namespace std;
 
 // Function to perform bubble sort on the array
@@ -73,3 +73,15 @@ int main() {
 
     return 0;
 }
+/*OUTPUT:
+kkw@kkw-HP-Pro-Tower-280-G9-PCI-Desktop-PC:~/Desktop/TY_CSD_73$ g++ daaauto1.cpp
+kkw@kkw-HP-Pro-Tower-280-G9-PCI-Desktop-PC:~/Desktop/TY_CSD_73$ ./a.out
+Enter the number of elements: 5
+Enter 5 unsorted numbers: 7
+1
+6
+9
+2
+Sorted array: 1 2 6 7 9 
+Enter the number to search for: 6
+Number 6 found at index 2. */
